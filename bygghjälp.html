@@ -52,13 +52,13 @@
 
 
     </header>
-
-    <h2>Please leave us a message</h2>
+    <form class="form">
+    <h2>Skicka oss ett meddelande</h2>
     <fieldset>
-        <legend>Personal information</legend>
+        <legend>Personlig Information</legend>
         <div class="party">
 
-            <label for="name">*Name:</label>
+            <label for="name">*Namn:</label>
             <input type="text" id="name" />
         </div>
         <div class="party">
@@ -67,26 +67,26 @@
         </div>
     </fieldset>
     <fieldset>
-        <legend>Stuff we want to know</legend>
+        <legend>Beskriv ditt bygge:</legend>
         <div class="party">
-            <label for="msg">Message:</label>
+            <label for="msg">*Message:</label>
             <textarea id="msg"></textarea>
         </div>
 
         <div class="radio">
-            <label for="gender">Male/Female:</label>
-            <input type="radio" name="gender" value="female nor male">Female<br>
-            <input type="radio" name="gender" value="female nor male">Male<br>
+            <label for="radio1">Man kan lätt kontakta våran service:</label>
+            <input type="radio" name="gender" value="female nor male">ja<br>
+            <input type="radio" name="gender" value="female nor male">nej<br>
         </div>
 
-        <div class="checkbox">
-            <label for="food">Jag tycker hemsidan är tydlig:</label>
-            <input type="checkbox" name="food" value="spaghetti">Ja<br>
-            <input type="checkbox" name="food" value="tacos">Nej<br>
+        <div class="radio">
+            <label for="radio2">Jag tycker hemsidan är tydlig:</label>
+            <input type="radio" name="hemsidan" value="ja">Ja<br>
+            <input type="radio" name="hemsidan" value="nej">Nej<br>
 
         </div>
     </fieldset>
-    <div class="button">
+    <div class="button1">
         <button type="sumbit">Send your message</button>
     </div>
 
