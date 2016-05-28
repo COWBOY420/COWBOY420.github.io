@@ -1,6 +1,7 @@
 #Struktur{
     margin:0 auto;
     width:1200px;
+    height:100%;
     background-color:#FFFFFF;
 }
 .header2 {
@@ -43,7 +44,7 @@ header{
 
 }
 .Rolfs2{
-    font-family: 'Comfortaa', cursive;
+
 
     margin-top:-4px;
     margin-bottom:0;
@@ -69,7 +70,7 @@ header{
 
 
 #ul13 {
-
+    text-decoration: none;
     margin-top: -40px;
     text-align:center;
     width: 650px;
@@ -79,6 +80,7 @@ header{
 
 }
 .ul14{
+    text-decoration: none;
     border-bottom:solid black 2px;
     margin:0 auto;
     height:30%;
@@ -90,7 +92,6 @@ header{
 
 
 a {
-
     text-decoration: none;
     color:white;
     display: block;
@@ -287,38 +288,115 @@ select{
     color:red;
 }
 .box1{
-    width: 32%;
+    margin:20px;
+    width: 220px;
     float:left;
-
+    height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);
 }
 .box2{
-    width: 32%;
+    margin:20px;
+    width: 220px;
     float:left;
-
+    height: 250px;
+    background-color:rgba(0, 51, 102 ,0.8);
 }
 .box3{
-    width: 32%;
+    margin:20px;
+    width: 220px;
+   float:left;
+    height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);
+}
+.box4 {
+    margin: 20px;
+    width: 220px;
     float:left;
-
+    height: 250px;
+    background-color: rgba(0, 51, 102, 0.8);
+}
+.box5{
+    margin:20px;
+    width: 220px;
+    float:left;
+    height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);}
+.box6{
+    margin:20px;
+    width: 220px;
+float:left;
+height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);
+}
+.box7{
+    margin:20px;
+    width: 220px;
+float:left;
+height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);
+}
+.box8{
+    margin:20px;
+    width: 220px;
+float:left;
+height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);
+}
+.box9{
+    margin:20px;
+    width: 220px;
+float:left;
+height:250px;
+    background-color:rgba(0, 51, 102 ,0.8);
 }
 
 .forsale{
     width: 200px;
     height: 150px;
+    margin: 10px;
 
 }
 .section{
     width: 1000px;
     margin-left:px;
     margin-top:40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
 }
 .down-left{
- border:
+
+margin-left:5px;
+}
+.knapp-right{
+
+
+
+    float: right;
+    text-align: center;
+
+    height:30px;
+    list-style: none;
+    margin-right: -150px;
+    margin-top: -50px;
+    display:inline-block;
+    border-radius: 0px;
+}
+.varubar {
+
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: darkgrey;
+    float:right;
+    width: 410px;
+    padding:0px 0px 0px 5px;
+    margin-top:-600px;
+
+
 
 }
-.knapp-höger{
-    float:right;
-    padding: 2px 6px 2px 6px;
+.liett, .litvå, .litre, .lifyra {
+    list-style: circle;
+
+
 }
 
 
