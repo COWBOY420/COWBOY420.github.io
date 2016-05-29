@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bygge.html" afterPath="$PROJECT_DIR$/bygge.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bygghjälp.html" afterPath="$PROJECT_DIR$/bygghjälp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tegelstenar.html" afterPath="$PROJECT_DIR$/tegelstenar.html" />
     </list>
     <ignored path="SlutprojektWebbutveckling.iws" />
@@ -37,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bygge.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bygge.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bygge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5903614">
-              <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+            <state vertical-scroll-proportion="-20.384615">
+              <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tegelstenar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tegelstenar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tegelstenar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.846154">
-              <caret line="248" column="65" selection-start-line="248" selection-start-column="65" selection-end-line="248" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.27538726">
+              <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -60,8 +59,8 @@
       <file leaf-file-name="bygghjälp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bygghjälp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.846154">
-              <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
+            <state vertical-scroll-proportion="-40.653847">
+              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state vertical-scroll-proportion="-18.423077">
+              <caret line="180" column="7" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -124,10 +123,10 @@
         <option value="$PROJECT_DIR$/Js/unslider.js" />
         <option value="$PROJECT_DIR$/css/unslider-dots.css" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/bygge.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/bygghjälp.html" />
         <option value="$PROJECT_DIR$/tegelstenar.html" />
-        <option value="$PROJECT_DIR$/bygge.html" />
       </list>
     </option>
   </component>
@@ -343,7 +342,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464517517659</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added more comments. fixed miss link issue">
+      <created>1464519519339</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1464519519339</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -388,7 +393,8 @@
     <MESSAGE value="added my &quot;store&quot; columns. Started working on another float layout for my last page of work" />
     <MESSAGE value="added all my textwork, added a table." />
     <MESSAGE value="added all my textwork, added a table. added a few comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added all my textwork, added a table. added a few comment" />
+    <MESSAGE value="added more comments. fixed miss link issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more comments. fixed miss link issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -499,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/unslider-dots.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.307692">
@@ -515,26 +513,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bygge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.384615">
+          <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.423077">
+          <caret line="180" column="7" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bygghjälp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.846154">
-          <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
+        <state vertical-scroll-proportion="-40.653847">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tegelstenar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.846154">
-          <caret line="248" column="65" selection-start-line="248" selection-start-column="65" selection-end-line="248" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bygge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5903614">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.27538726">
+          <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
           <folding />
         </state>
       </provider>
