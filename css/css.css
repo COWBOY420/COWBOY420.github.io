@@ -1,9 +1,13 @@
+/* Strukturen har placerats i mitten och har en lite ljuare nyans av vit*/
 #Struktur{
     margin:0 auto;
     width:1200px;
     height:100%;
     background-color:#FFFFFF;
 }
+/*Min header 2 som är min små navigeringar logga in, profil och hjälp. Har lagt en width på 300px och placerat den i högra hörnet
+för att följa min wireframe. Däremot har detta uppståt problem på andra plattformer t.ex min egna mobil. Men för Iphoned funkar detta utmärkt
+*/
 .header2 {
     font-size: 14px;
     float:right;
@@ -14,12 +18,15 @@
 
 
 }
+/* Här har vi hela headern som har en blå backgrund medn lite transition 0.8. En höjd på 150px som gör det till en gangka
+bekväm höjd till en header.Floatat den till top för att inga springor ska uppkomma.*/
 header{
     background-color:rgba(0, 51, 102 ,0.8);
     height: 150px;
     float:top;
 
 }
+/*Här har vi lite små kod till min knapp "sök!" som ligger i navigeringspalten till höger.*/
 .button{
 
     float:right;
@@ -27,11 +34,16 @@ header{
 
 
 }
+/*Detta är mina huvudlänkar som används som sidorna "Hem","Bygge","Bygghjälp" och "Tegelstenar".
+ Har satt en speciell margin för att de skulle anpassa efter de andra delarna.
+*/
 .znav{
     margin-right: 30px;
     margin-left: 30px;
 
 }
+/*Här är min första loga bit 1, valde att göra 2 delar för att kunna flytta dem intill varann, för designens skull.
+Den har en speciell "font-family" som speglar sig perfekt från Wireframen*/
 .Rolfs1{
      font-family: 'Comfortaa', cursive;
 
@@ -43,17 +55,17 @@ header{
 
 
 }
-.Rolfs2{
+/*Här är andra biten, anpassas efter bit 1*/
+.Rolfs2 {
 
-
-    margin-top:-4px;
-    margin-bottom:0;
-    width:180px;
+    margin-top: -4px;
+    margin-bottom: 0;
+    width: 180px;
 
     font-family: 'Comfortaa', cursive;
 
-
 }
+/*Här är delarna i 1 enda klass som göra att jag sedan kan anpassa den efter mina .znav som tog gott plats.*/
 .Rolfs{
     margin-top:10px;
     width:180px;
@@ -68,9 +80,11 @@ header{
 }
 
 
-
+/*Här är min del där mina huvudsidor i 1 enda id vilket ger mig möjligheten att justera hela "lådan"
+ har valt bort text-decoration för att sträcket undantill ska försvinna. placerat texten i mitten av sida "mini lådor" nzav och har en
+ negativ margin-top för att jag ljusterade den efter allt annat. Lite krångel..*/
 #ul13 {
-    text-decoration: none;
+    /*text-decoration: none;*/
     margin-top: -40px;
     text-align:center;
     width: 650px;
@@ -79,18 +93,21 @@ header{
     list-style: none;
 
 }
+/*Detta är mina andra del de länkar på höger sida, dem i 1 enda låda precis som ovan. Denna har jag en border på vänster och nere för att följa min wirefram
+har också*/
 .ul14{
-    text-decoration: none;
+    /*text-decoration: none;*/
     border-bottom:solid black 2px;
     margin:0 auto;
-    height:30%;
+    /*Denna kod nedan tillhör inte, den finns bara här för framtida "experiment"*/
+    /*height:30%;*/
     text-align: center;
     padding:10px;
     width:280px;
 
 }
 
-
+/*Denna taggen påverkar alla länk texter samma font-family och samma padding för att få samma stil på hela sidan.*/
 a {
     text-decoration: none;
     color:white;
@@ -100,11 +117,14 @@ a {
     font-family: 'Josefin Sans', sans-serif;
 
 }
+/*En liten snygg grå hover som matchar enligt mig, har en böjning på kanterna kring hovern som jag fixade med
+ "border-radius */
 a:hover{
     background-color:grey;
     border-radius:4px;
 
 }
+/*Denna påverkar alla Li som gör dem till block-like, och tar bort "list-style" som punkter och annat*/
 li {
 
     list-style: none;
@@ -112,25 +132,27 @@ li {
 
 }
 
-
+/*Fixar bredden på slideshowen för att inga glipor ska uppkomma mellan bilderna.*/
 .slideshow{
     width:800px;
     height:400px;
 
 }
-#imgslideshow{
-    width:800px;
-    height:400px;
-}
+/*Här är bilderna på som cirkulerar i min Javascript, samma höjd och längd som min slideshow*/
+
+
 .img{
     width: 800px;
     height: 400px;
 }
+/*En liten ändring på mitt sök fält i nav-bar*/
 .searchfield{
     border: solid gray 2px;
 
 
 }
+/*Här är en liten id på mitt område kring knapp och searchfield som jag ljustera in i luckan som på wirerframen
+men hjälp av olika marginaler och höjd, samt float. vit färg.*/
 #searchbar{
     float:top;
     margin-left:10px;
@@ -139,14 +161,20 @@ li {
     color:white;
 
 }
+/*Ändra marginal och text stil på h3, flyttar ihop h3 taggar.*/
 h3{
     margin:0;
+    font-family: 'Josefin Sans', sans-serif;
 }
+/*Exempel bilder på "Senaste nytt. En längd på 100px och höjd på 50px, floatat dem till höger för wireframens skull.*/
 .bilderhöger{
     width:100px;
     height:50px;
     float:right;
 }
+/*Här är hela mitt "senaste nytt" fält. Har anpassat den med olika marginaler,negativa. Har border på vänster, top och bottom sida
+för att passa in med navbaren border. Snyggt tycker jag. Hela lådan är floatad till höger för att inte störa javascriptet eller texterna nedan
+har en mindre storlek, 12px.*/
 .updatebar {
     font-size: 12px;
     float:right;
@@ -160,28 +188,34 @@ h3{
     font-family: 'Josefin Sans', sans-serif;
 
 }
+/*Lite små detaljer, en marginal på brödtexten i .updatebar*/
 .updatebartext{
     float:right;
     margin-left:10px;
 
 }
+/* Detta är hela den nedre delen under min js som har satt en width på 1200px; som motsbara strukturens width också
+en höjd så allt får plats och min standard stil 'Josefin Sans'*/
 .thewholestory{
     width:1200px;
     height:476px;
     font-family: 'Josefin Sans', sans-serif;
 
 }
+/*Dem små text delarna på vänster sida, dem individuella har jag satt en marginal på 20px för att få lite mellanrum*/
 .ministory{margin:20px;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
 }
+/*Alla vänstra delarna i en klass som har en längd på 720px; an marginal på noll som fyller ut den med ".rightstory" o*/
 .Story{width:720px;
     background-color: lightgray;
     float:left;
     margin:0px;
     padding:5px;
-    overflow:auto;
-}
 
+}
+/*Den högra delen som har den resterande längden på 460px; floatat den till vänster för att inga springor ska uppstå med den grå
+bakgrunden. Marginalen är också 0 pga av detta. En liten paddin doc för att påverka det på insidan.*/
 .rightstory{width:460px;
     float:left;
     margin:0px;
@@ -190,14 +224,18 @@ h3{
     height:228px;
 
 
-
 }
+/*De små delarna i footern heter .tårna som är ett bra namn =). har en bredd på 320px; och en marginal på 20px; detta gjorde jag för att får
+en mer exakt utforming av den totala bredden. floatat den till vänster också för att de ska lägga sig horisontelt.*/
 .tårna {
     float: left;
     width: 320px;
     margin: 20px;
     color:white;
 }
+/*ARR står för ALL RIGHT RESERVED, vilket är precis vad det är. Har floatat den till vänster och har en cursiv text på texten som jag skrev
+men font-style:italic; Har lagt en border på dens högra sida för att lägga den i en anna zone än "kontakt". Har en litten padding så att border flyttas lite
+extra.*/
 .ARR{
     float:left;
     color:white;
@@ -207,12 +245,16 @@ h3{
     padding-right:20px;
 
 }
+/*här är min texten "Kontakta", justerat den efter .ARR med float left och lagt en till border på höger sida om "kontakt"
+*/
 .footerkontakt{
     float:left;
     border-right: solid white 2px;
 
 
 }
+/*Här är hela min footer som har en bakgrunds färg på svart/brun?. Floatat hela footer till vänster för att inga problem ska uppkomma
+längd på 1200px; precis som struktur. Den vanliga font-familyn så temat behålls*/
 footer{
     float:left;
     background-color:#4c3333;
@@ -222,25 +264,30 @@ footer{
 
 
 
-
+/*Min Ul class i formen på sidan "bygghjälp". */
 .form-style-1 {
     margin:10px auto;
     max-width: 400px;
     padding: 20px 12px 10px 20px;
     font: 16px 'Josefin Sans',sans-serif
 }
-.form-style-1 li {
+/*Här påverkar jag min formstyle-1 och li så de placeras i mitten med display:block; tar man bort detta klass så flyttas hela
+formen till vänster, som float.*/
+.form-style-1 li{
     padding: 0;
     display: block;
     list-style: none;
     margin: 10px 0 0 0;
 }
+/*Här påverkar jag labeln och sätter den nedre margin till 3 etc*/
 .form-style-1 label{
     margin:0 0 3px 0;
     padding:0px;
     display:block;
     font-weight: bold;
 }
+/* Alla inputs i formen får samma längd med hjälp av box-sizing så de får en bra jämn längd. De får en lätt padding för
+ ge mer utrymmet med hjälp av padding:7px; En border som snygga till det, med färgen #BEBEBE;*/
 .form-style-1 input[type=text],
 .form-style-1 input[type=date],
 .form-style-1 input[type=datetime],
@@ -258,33 +305,45 @@ select{
     margin:0px;
 
 }
+/*Denna delar upp den första label men för och efter namn, så storleken får en width på 49% och resten mellan
+rummet i mitten bestär av den resterande 2%:en 100-(49+49) = 2% kvar*/
 .form-style-1 .field-divided{
-    width: 49%;
+   width: 49%;
 }
-
+/*Denna behövs för att längden på Email och Message box ska bevara samma längd som de andra labels just därför har den width:100%;
+*/
 .form-style-1 .field-long{
     width: 100%;
 }
+/*Samma sak med .field-select bevara din längd med box-sizing. Så behöver width:100% för att bevara den
+*/
 .form-style-1 .field-select{
     width: 100%;
 }
+/*Höjd på message area/ message box*/
 .form-style-1 .field-textarea{
     height: 100px;
 }
+/*Denna påverkar själva knappen på formen. En lagom padding och en blå aktig bakgrund färg och en ljus grå text färg*/
 .form-style-1 input[type=submit], .form-style-1 input[type=button]{
     background: #4B99AD;
     padding: 8px 15px 8px 15px;
     color: #fff;
 }
+/*En hover över knappen väldigt svag, men färgen är lite mörkare än bakgrundfärgen på själv knappen.*/
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
     background: #4691A4;
 
 
 
 }
+/*Detta är span required, en röd stjärna kommer synas över dessa fält som .required finns i.*/
 .form-style-1 .required{
     color:red;
 }
+/*Dessa låder är samma. Men skapade en slags column funktion med hjälpa av dessa 3 x 3 rutorna med "tegel exempel"
+Har en gemensamm width, margin, alla är floatade till vänster så högra listan får plats.
+En gemensam höjd på 250px;samma blåa bakgrundsfärg som matchar temat!*/
 .box1{
     margin:20px;
     width: 220px;
@@ -347,24 +406,30 @@ float:left;
 height:250px;
     background-color:rgba(0, 51, 102 ,0.8);
 }
-
+/*Själva bildens klass. En längd, bredd och margin så den håller sig innanför .box(1-(9))*/
 .forsale{
     width: 200px;
     height: 150px;
     margin: 10px;
 
 }
+/*Detta är hela columen som har en bredd på 1000px, och en liter marginal-top:40px; för att ge avstånd från header
+ . Vit färg och min standard text stil.*/
 .section{
     width: 1000px;
-    margin-left:px;
     margin-top:40px;
     font-family: 'Josefin Sans', sans-serif;
     color:white;
 }
+/*Detta är själva select boxen som flyttas 5px från vänster till mitten, för att ge lite bättre stil.
+*/
 .down-left{
 
 margin-left:5px;
 }
+/*Detta är knappen till tegelstenarna, har en lagom höjd, texten är i mitten av knappen. Ingen list style. Har en ljusterande negativa
+marginal för en hyfsad placering. Ingen speciell border, har en border radius på 2 px för att runda kanterna. En höjd på 30px.
+*/
 .knapp-right{
 
 
@@ -377,8 +442,10 @@ margin-left:5px;
     margin-right: -150px;
     margin-top: -50px;
     display:inline-block;
-    border-radius: 0px;
+    border-radius: 2px;
 }
+/*Detta är min sidobar också kallad .varubar, en grå bakgrundsbild och floatade till höger om min "kolumner"
+en bredd på 410px så den passar in*/
 .varubar {
 
     font-family: 'Josefin Sans', sans-serif;
@@ -391,17 +458,22 @@ margin-left:5px;
 
 
 }
+/*helt glömt bort denna, den lägger en cirkel på li men syns inte*/
 .liett, .litvå, .litre, .lifyra {
-    list-style: circle;
+   /* list-style: circle;*/
 
 
 }
+/*Min table på "bygge.html" små detaljer som lyder följade. Border collapse: bordern faller samman och dras mellan varje
+stycke.*/
 table{border: black solid 2px;
     border-collapse:collapse;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 table, th, td{border:2px solid black;
 }
+/*td i tabellen har en bredd på 200px så den blir tydligare att läsa*/
 td{
     width:200px;
 }
